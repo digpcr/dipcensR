@@ -35,7 +35,7 @@ dipcensR requires:
 - partition intensities (numeric), in a data frame format (one column per threshold to evaluate)
 - thresholds (numeric), in vector format
 
-Some input parameters can optionally be altered, it is recommend to start an initial evaluation using default parameters.
+Some input parameters can optionally be altered, it is recommended to start an initial evaluation using default parameters.
 - plot (default TRUE): whether to generate dipcensR curve plots
 - window (default 0.2): perturbation window to consider for assigning a flag
 - warn.level (default 0.1): relative occupancy change to exceed to assign a warning flag (orange) (and as long as the stop.level is not exceeded; 0.10 meaning 10% change within the window (argument))
